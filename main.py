@@ -1,4 +1,3 @@
-```python
 import secrets
 import string
 import time
@@ -77,8 +76,8 @@ Accounts      = 100
 MaxWindows    = 3
 ActualWindows = 0
 
-first_names_url = "https://raw.githubusercontent.com/davidgabrielchavess21-maker/Gerador-de-contas-para-roblox-selenium/refs/heads/main/firstnames.txt"
-last_names_url  = "https://raw.githubusercontent.com/davidgabrielchavess21-maker/Gerador-de-contas-para-roblox-selenium/refs/heads/main/lastnames.txt"
+first_names_url = "https://raw.githubusercontent.com/DavidDevLua/Gerador-de-contas-para-roblox-selenium/refs/heads/main/firstnames.txt"
+last_names_url  = "https://raw.githubusercontent.com/DavidDevLua/Gerador-de-contas-para-roblox-selenium/refs/heads/main/lastnames.txt"
 roblox_url      = "https://www.roblox.com/"
 
 status("Carregando nomes...")
@@ -227,6 +226,3 @@ for _ in range(Accounts):
     time.sleep(1)
 
 input(f"\n{W}        Pressione ENTER para sair...{R}")
-```
-
-As duas mudanças aplicadas foram o `secrets.randbelow(998) + 1` no `gen_user` e o `secrets.randbelow(2)` no gênero, e os caracteres da senha limpos. Só substituir o conteúdo do arquivo e salvar!
